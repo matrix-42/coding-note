@@ -10,7 +10,7 @@ To find the the sum from ith to jth element in nums[].
   
   * **label**: idx of nums[]; **start form 1 instead of 0**
       
-  * **val**: Sum of all nums[i], for i is the label of all node in n's left subtree;  
+  * **val**: Sum of itself and all nums[i], for i is the label of all node in n's left subtree;(自己本身的值以及所有左子树的点的值的总和)
 
 
                                              4
