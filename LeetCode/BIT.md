@@ -6,7 +6,7 @@ To find the the sum from ith to jth element in nums[].
 
 ### 1. Build 
   
-  建立一个虚拟的二叉树, 每个节点有label 和 val 两个属性.
+  建立一个虚拟的二叉树, 每个节点有label 和 val 两个属性. val 部分我们用数组 tree[]来实现
   
   * **label**: idx of nums[]; **start form 1 instead of 0**
       
